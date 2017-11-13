@@ -7,12 +7,13 @@ $(document).on("pagecreate","#pageone",function(){
 
 function random() {
     ranState = !Math.round(Math.random());
-	alert(ranState);
-    if ranState == true{
+    if (ranState){
+        alert(ranState);
         navigator.notification.beep(1);
-        navigator.vibrate(500)
-    } else if ranState == false{
+        navigator.vibrate(500);
+    } else {
         navigator.notification.beep(2);
-        navigator.vibrate([500, 200, 500])
+        alert(ranState);
+        navigator.vibrate([500, 200, 500]);
     }
 }
