@@ -6,10 +6,10 @@
         id        = "mob.app.dev.lifecycle"
         version   = "1.0.0">
 
-    <name>Week 6 - Inputs</name>
+    <name>Week 7 - outputs</name>
 
     <description>
-        Navigation practice
+        Outputs Practice
     </description>
 
     <author>
